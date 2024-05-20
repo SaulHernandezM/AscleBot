@@ -1,0 +1,144 @@
+.box.fondo {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center calc(20% + 10px);
+  padding: 5% 5% 5% 5%;
+  background-attachment: fixed; /* La imagen se fija mientras se desplaza */
+}
+
+.listas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.listas li {
+  margin: 0 15px; /* Ajusta el espaciado entre los elementos */
+}
+
+.listas li a {
+  font-weight: bold;
+  color: azure;
+  font-size: 2.3em;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.pines {
+  width: 40px; /* Ajusta el tamaño de los pines */
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+.contenido1 {
+  text-align: center; /* Centra el contenido */
+}
+
+.contenido1 h2 {
+  font-weight: bold;
+  color: azure;
+  font-size: 4.5em; /* Ajusta el tamaño del título */
+  margin-bottom: 20px; /* Espaciado inferior para el título */
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.contenido1 p {
+  font-weight: bold;
+  color: azure;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2em; /* Ajusta el tamaño del texto */
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+/* Estilos para la sección con la clase contenido2 */
+.box2 {
+  display: flex;
+  align-items: center;
+  padding: 80px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+.contenido2 {
+  flex: 1;
+  padding-right: 50px; /* Ajusta el espaciado entre el texto y la imagen */
+}
+
+.contenido2 h2 {
+  padding-left: 40px;
+  font-size: 3.5em; /* Ajusta el tamaño del título */
+  margin-bottom: 20px; /* Espaciado inferior para el título */
+}
+
+.contenido2 p {
+  padding-left: 40px;
+  text-align: justify;
+  font-size: 2em; /* Ajusta el tamaño del texto */
+  margin-bottom: 30px; /* Espaciado inferior para el texto */
+}
+
+.Picnic {
+  max-width: 40%; /* Ajusta el tamaño de la imagen */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra con mayor opacidad */
+  border-radius: 10px; /* Agrega esquinas redondeadas */
+  margin-right: 20px; /* Ajusta el margen derecho */
+  margin-left: 20px; /* Ajusta el margen izquierdo */
+}
+
+/* Estilos para la sección con la clase contenido3 */
+.box3 {
+  display: flex;
+  align-items: center;
+  padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+.contenido3 {
+  flex: 1;
+  padding-left: 50px; /* Ajusta el espaciado entre el texto y la imagen */
+}
+
+.contenido3 h2 {
+  font-size: 3.5em; /* Ajusta el tamaño del título */
+  margin-bottom: 20px; /* Espaciado inferior para el título */
+}
+
+.contenido3 p {
+  text-align: justify;
+  padding-right: 40px;
+  font-size: 2em; /* Ajusta el tamaño del texto */
+  margin-bottom: 30px; /* Espaciado inferior para el texto */
+}
+
+.Mujeryrobot {
+  max-width: 40%; /* Ajusta el tamaño de la imagen */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra con mayor opacidad */
+  border-radius: 10px; /* Agrega esquinas redondeadas */
+  margin-right: 20px; /* Ajusta el margen derecho */
+  margin-left: 20px; /* Ajusta el margen izquierdo */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* O ajusta según sea necesario */
+}
+
+.chatbot {
+    border: none; /* Elimina el borde predeterminado del iframe */
+    border-radius: 15px; /* Agrega esquinas redondeadas */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Agrega una sombra */
+    background-color: #f8f9fa; /* Color de fondo */
+    overflow: hidden; /* Evita el desbordamiento del contenido */
+}
