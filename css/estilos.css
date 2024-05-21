@@ -133,6 +133,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh; /* O ajusta según sea necesario */
+  margin-top: 50px; /* Agrega margen superior */
+  margin-bottom: 50px; /* Agrega margen inferior */
 }
 
 .chatbot {
