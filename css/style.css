@@ -1,4 +1,4 @@
-﻿body {
+body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   background-color: azure;
@@ -184,42 +184,14 @@ textarea.input {
   width: 100%;
 }
 
-@media only screen and (max-width: 991px) {
-  .header-ctn .menu-toggle {
-    display: inline-block;
-  }
-  #responsive-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: #15161d;
-    height: 100vh;
-    max-width: 250px;
-    width: 0%;
-    overflow: hidden;
-    z-index: 22;
-    padding-top: 60px;
-    transform: translateX(-100%);
-    transition: 0.2s all;
-  }
-  #responsive-nav.active {
-    transform: translateX(0%);
-    width: 100%;
-  }
+/* Media Query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
   .main-nav {
-    margin: 0px;
-    float: none;
+    text-align: center;
   }
   .main-nav > li {
-    display: block;
-    float: none;
-  }
-  .main-nav > li + li {
-    margin-left: 0px;
-  }
-  .main-nav > li > a {
-    padding: 15px;
-    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
   }
 }
 
@@ -334,64 +306,4 @@ textarea.input {
 .custom-dots .slick-dots {
   position: static;
   margin: 15px 0px;
-}
-
-
-/*=========================================================
-	13 -> RESPONSIVE
-===========================================================*/
-
-@media only screen and (max-width: 1201px) {
-}
-
-@media only screen and (max-width: 991px) {
-  #top-header .header-links.pull-left {
-    float: none !important;
-  }
-  #top-header .header-links.pull-right {
-    float: none !important;
-    margin-top: 5px;
-  }
-  .header-logo {
-    float: none;
-    text-align: center;
-  }
-  .header-logo .logo {
-    display: inline-block;
-  }
-  #product-imgs {
-    margin-bottom: 60px;
-    margin-top: 15px;
-  }
-  #rating {
-    text-align: center;
-  }
-  #reviews {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .section-title .section-nav {
-    float: none;
-    margin-top: 10px;
-  }
-  .section-tab-nav li {
-    margin-top: 10px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  [class*="col-xs"] {
-    width: 100%;
-  }
-  .store-grid {
-    float: none;
-    margin-top: 10px;
-  }
-  .store-pagination {
-    float: none;
-    margin-top: 10px;
-  }
 }
